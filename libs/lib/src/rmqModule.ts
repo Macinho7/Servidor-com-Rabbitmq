@@ -30,7 +30,7 @@ export class rmqModule {
                   urls: [`amqp://${USER}:${PASSWORD}@${HOST}`],
                   queue,
                   queueOptions: {
-                    durable: true, // queue survives broker restart
+                    durable: true, 
                   },
                 },
               });
